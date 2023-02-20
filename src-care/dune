@@ -1,0 +1,5 @@
+(library
+ (name topkg_care)
+ (wrapped false)
+ (flags (:standard -w -27-3-16-39))
+ (libraries topkg bos bos.setup opam-format fmt.cli))

@@ -1,0 +1,5 @@
+(executable
+ (public_name topkg_bin)
+ (package topkg-care)
+ (flags (:standard -w -3-32-27-6))
+ (libraries topkg_care cmdliner rresult fpath bos bos.setup webbrowser webbrowser.cli logs.cli))
